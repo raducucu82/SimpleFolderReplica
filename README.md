@@ -1,4 +1,4 @@
-# SimpleFolderReplicator
+# Simple Folder Replicator
 
 The program periodically synchronizes a source folded to a replica folder, source to replica.
 Synchronization is one-way. <br>
