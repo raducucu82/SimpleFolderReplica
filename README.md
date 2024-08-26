@@ -1,5 +1,7 @@
 # Simple Folder Replicator
 
+Learning project for [Rx.Net](https://github.com/dotnet/reactive).
+
 The program periodically synchronizes a source folded to a replica folder, source to replica.
 Synchronization is one-way. <br>
 CLI arguments:
@@ -30,8 +32,8 @@ which require special handling (see below).
 - File replication (create/move/delete) success or failure is logged.
 
 ### Libraries used
-- [Rx.Net](https://github.com/dotnet/reactive) - took the project as on opportunity to experiment with this. 
-- [Autofac](https://github.com/autofac/Autofac) - IoC
+- [Rx.Net](https://github.com/dotnet/reactive)
+- [Autofac](https://github.com/autofac/Autofac) - DI
 - [CommandLineParser](https://github.com/commandlineparser/commandline) - parse program arguments.
 - [NLog](https://github.com/NLog/NLog) - file and console logging.
 - [System.IO.Abstractions](https://github.com/TestableIO/System.IO.Abstractions) - testable `FileSystem` API
